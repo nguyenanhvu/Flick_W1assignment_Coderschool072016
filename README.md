@@ -1,33 +1,60 @@
-## Rotten Tomatoes [(raw)](?raw=1)
+# Project 1 - Flick
 
-This is a movies app displaying box office and top rental DVDs using the [Rotten Tomatoes API](http://developer.rottentomatoes.com/docs/read/JSON).
+*Flick* is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: `15h`
+Time spent: *8* hours spent in total
 
-### Features
+## User Stories
 
-#### Required
+The following **required** functionality is completed:
 
-- [x] User can view a list of movies. Poster images load asynchronously.
+- [x] User can view a list of movies currently playing in theaters. Poster images load asynchronously.
 - [x] User can view movie details by tapping on a cell.
 - [x] User sees loading state while waiting for the API.
-- [x] User sees error message when there is a network error: http://cl.ly/image/1l1L3M460c3C
+- [x] User sees an error message when there is a network error.
 - [x] User can pull to refresh the movie list.
 
-#### Optional
+The following **optional** features are implemented:
 
+- [ ] Add a tab bar for **Now Playing** and **Top Rated** movies.
+- [ ] Implement segmented control to switch between list view and grid view.
+- [ ] Add a search bar.
 - [ ] All images fade in.
-- [ ] For the larger poster, load the low-res first and switch to high-res when complete.
-- [ ] All images should be cached in memory and disk: AppDelegate has an instance of `NSURLCache` and `NSURLRequest` makes a request with `NSURLRequestReturnCacheDataElseLoad` cache policy. I tested it by turning off wifi and restarting the app.
+- [ ] For the large poster, load the low-res image first, switch to high-res when complete.
 - [ ] Customize the highlight and selection effect of the cell.
 - [ ] Customize the navigation bar.
-- [ ] Add a tab bar for Box Office and DVD.
-- [ ] Add a search bar: pretty simple implementation of searching against the existing table view data.
+
+The following **additional** features are implemented:
+
+- [ ] List anything else that you can get done to improve the app functionality!
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
 
 ### Walkthrough
-![Video Walkthrough](Rotten_Tomatoes_w1.gif)
+![Video Walkthrough](Flick_walkthrough.gif)
 
-Credits
----------
-* [Rotten Tomatoes API](http://developer.rottentomatoes.com/docs/read/JSON)
-* [AFNetworking](https://github.com/AFNetworking/AFNetworking)
+<img src='http://i.imgur.com/SZvMFe6.gifv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+## Notes
+
+Describe any challenges encountered while building the app.
+
+## License
+
+    Copyright [yyyy] [name of copyright owner]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
