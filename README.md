@@ -33,7 +33,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 ### Walkthrough
-![Video Walkthrough](Flick_walkthrough.gif)
+![Flick_walkthrought.gif](Flick_walkthrought.gif)
 
 <img src='http://i.imgur.com/SZvMFe6.gifv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
